@@ -13,7 +13,7 @@ rotated = cv2.warpAffine(image, M, (w,h))
 
 rotated_rgb = cv2.cvtColor(rotated,cv2.COLOR_BGR2RGB)
 plt.imshow(rotated_rgb)
-plt.title("Rotateed RGB")
+plt.title("Rotated RGB")
 plt.show()
 
 # Increase brightness by adding 50 to all pixel values
